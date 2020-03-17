@@ -1,0 +1,26 @@
+{
+  "name": "game2048",
+  "version": "1.0.0",
+  "description": "A JavaScript project",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "node ./node_modules/parcel-bundler/bin/cli serve ./src/index.html --port 8000",
+    "build": "node ./node_modules/parcel-bundler/bin/cli build ./src/index.html --out-dir ./dist/",
+    "lint": "node ./node_modules/eslint/bin/eslint . --ext .js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.1.0",
+    "eslint-plugin-import": "2.20.1",
+    "parcel-bundler": "1.12.4"
+  },
+  "dependencies": {
+  }
+}
